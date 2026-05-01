@@ -7,3 +7,8 @@
 ##### Adds a different perspective for cryptography
 -  Proof of integrity
 -  Proof of origin, with high assurance of authenticity
+
+
+
+![[Pasted image 20260501173510.png|470]]
+![[Pasted image 20260501173733.png]]
