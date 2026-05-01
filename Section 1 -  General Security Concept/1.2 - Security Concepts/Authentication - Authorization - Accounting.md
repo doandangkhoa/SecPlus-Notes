@@ -22,3 +22,7 @@
 #### The user or device has now authenticated
 -  To what do they now have access?
 -  Time to apply an authorization model
+#### User and services
+-  Associating individual users to access rights does not scale
+#### Put an authorization model in the middle
+-  Define by Roles, Organizations, Attributes, etc.
