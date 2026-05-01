@@ -18,7 +18,7 @@
 -  Discourage an intrusion attempt
 -  Does not directly prevent access
 #### Make an attacker think twice :
-- Application splash screen
+-  Application splash screen
 -  Threat of demotion
 -  Front reception desk
 -  Posted warning signs
@@ -62,5 +62,3 @@
 -  Post a sign for "Authorized Personnel Only"
 
 ![[Pasted image 20260501161001.png]]
-
-
