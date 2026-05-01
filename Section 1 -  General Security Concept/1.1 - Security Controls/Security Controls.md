@@ -61,4 +61,4 @@
 -  Train users on proper security policy
 -  Post a sign for "Authorized Personnel Only"
 
-![[Pasted image 20260501161001.png]]
+![](../../Images/Pasted%20image%2020260501202542.png)
