@@ -1,7 +1,7 @@
 ## 1. What is PKI? (Public Key Infrastructure)
 Think of PKI as the **"Digital ID System"** for organizations.
 *   **Purpose:** It ensures that a user or device is really who they claim to be.
-*   **How it works:** It combines rules, software, and a trusted authority (the **Certificate Authority** or **CA**) to issue and manage digital certificates.
+*   **How it works:** It combines rules, software, and a trusted authority (the **Certificate Authority** or **CA**) to issue and manage **digital certificates**.
 
 ---
 
@@ -25,6 +25,7 @@ Think of PKI as the **"Digital ID System"** for organizations.
 ---
 
 ## 3. How It Works in Practice (Alice & Bob)
+![](../../Images/Pasted%20image%2020260502131227.png)
 1.  **Alice** creates a pair of keys. She shares her **Public Key** on her website.
 2.  **Bob** wants to send Alice a secret message. He uses her Public Key to **lock** the message.
 3.  The message travels as scrambled code. Even if intercepted, it's unreadable.
