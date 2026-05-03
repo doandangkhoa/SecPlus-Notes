@@ -12,6 +12,7 @@ Derived from the Greek for "concealed writing," steganography involves hiding da
 
 ## 3. Tokenization
 Tokenization is a method used daily in financial transactions where sensitive data is replaced with a non-sensitive substitute called a **token**.
+![](../../Images/Pasted%20image%2020260503132627.png)
 - **How it Works**:
   1. **Registration**: A mobile device registers a credit card with a token service server and receives a unique token.
   2. **Transaction**: During payment (e.g., NFC), the device sends the token (not the actual card number) to the merchant.
@@ -22,6 +23,7 @@ Tokenization is a method used daily in financial transactions where sensitive da
 ## 4. Data Masking
 Data masking hides parts of sensitive information to prevent unauthorized access.
 - **Common Usage**:
+- ![](../../Images/Pasted%20image%2020260503132803.png)
   - **Receipts**: Showing only the last four digits of a credit card (e.g., `****-****-****-1234`).
   - **Customer Service**: Representatives may only see partial numbers (e.g., "ending in 2512") to verify accounts without exposing the full number.
 - **Techniques**: Hiding digits with asterisks, rearranging numbers, or substituting specific digits with others that can be reversed later if authorized.
