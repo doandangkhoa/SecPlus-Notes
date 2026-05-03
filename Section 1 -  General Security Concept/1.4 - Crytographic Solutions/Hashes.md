@@ -33,15 +33,16 @@ Digital signatures provide **Integrity**, **Authentication**, and **Non-repudiat
 - **Non-repudiation**: The sender cannot deny sending the message.
 
 ### How a Digital Signature Works (Alice to Bob)
-1.  **Creation (Alice)**:
+1.  **Creation (Alice)**: ![](../../Images/Pasted%20image%2020260503135204.png)
     - Alice writes a message (Plaintext): *"You're hired, Bob."*
     - The system creates a **hash** of the message.
     - Alice's system **encrypts the hash** using her **Private Key**.
     - This encrypted hash is the **Digital Signature**, attached to the message.
 2.  **Verification (Bob)**:
+	![](../../Images/Pasted%20image%2020260503135341.png)
     - Bob receives the message and the signature.
     - His system **decrypts the signature** using Alice's **Public Key**, revealing the original hash.
-    - Bob's system creates a **new hash** of the received message.
+    - Bob's system creates a **new hash** of the received message (using the same hash algorithm with Alice).
     - **Comparison**: If the decrypted hash matches the newly created hash, the signature is valid.
       - **Match**: The message is authentic and unaltered.
       - **Mismatch**: The message was tampered with or not sent by Alice.
